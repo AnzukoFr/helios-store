@@ -137,7 +137,60 @@ footer p a{
     font-weight: bold;
 }
 @media screen and (max-width: 1499px){
-    .body {
+    .navbar {
+        width: 90%;
+    }
+    
+    
+   
+    
+    .content{
+        width: 90%;
+    }
+    .content h1{
+        width: 90%;
+    }
+    .content p{
+        width: 90%;
+    }
+    
+    .produits_texte{
+        width: 90%;
+    }
+    .section_produits{
+        width: 90%;
+    }
+    .produits{
+        width: 90%;
+    }
+    .produits .carte{
+        width: 90%;
+    }
+    .produits .carte img{
+        width: 90%;
+    }
+    .produits .carte .desc{
+        width: 90%;
+    }
+    .produits .carte .titre{
+        width: 90%;
+    }
+    .produits .carte .box{
+        width: 90%;
+    }
+    .produits .carte .prix{
+        width: 90%;
+    }
+    .produits .carte .achat{
+        width: 90%;
+    }
+    .footer{
+        width: 90%;
+    }
+    .footer p{
+        width: 90%;
+    }
+    .footer p a{
         width: 90%;
     }
 }
