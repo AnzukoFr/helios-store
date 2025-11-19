@@ -137,25 +137,7 @@ footer p a{
     font-weight: bold;
 }
 @media screen and (max-width: 1499px){
-    .navbar {
-        width: 90%;
-    }
-    .produits_texte{
-        width: 90%;
-    }
-    .logo{
-        width: 90%;
-    }
-    .section_produits{
-        width: 90%;
-    }
-    .produits{
-        width: 90%;
-    }
-    .carte{
-        width: 90%;
-    }
-    .menu{
+    .body {
         width: 90%;
     }
 }
