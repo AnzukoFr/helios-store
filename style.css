@@ -142,11 +142,14 @@ footer p a{
     } 
     .logo{
         width: 100%;
+        flex-direction: fixed;
     }
     .menu{
         width: 100%;
+        flex-direction: fixed;
     }
     .menu li{
         width: 100%;
+        flex-direction: fixed;
     }
 }
