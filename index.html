@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hélios</title>
 </head>
+
 <body>
 
     <nav class="navbar">
@@ -29,7 +30,7 @@
                 <div class="titre">Ardent I</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Ardent I" data-price="18€">Ajouter au panier</button>
                 </div>
             </div>
 
@@ -39,7 +40,7 @@
                 <div class="titre">Embrasement II</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Embrasement II" data-price="20€">Ajouter au panier</button>
                 </div>
             </div>
 
@@ -49,7 +50,7 @@
                 <div class="titre">Lumos III</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Lumos III" data-price="15€">Ajouter au panier</button>
                 </div>
             </div>
 
@@ -59,7 +60,7 @@
                 <div class="titre">Thermos IV</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Thermos IV" data-price="30€">Ajouter au panier</button>
                 </div>
             </div>
 
@@ -69,7 +70,7 @@
                 <div class="titre">Kaminos V</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Kaminos V" data-price="25€">Ajouter au panier</button>
                 </div>
             </div>
 
@@ -79,14 +80,25 @@
                 <div class="titre">Astrap VI</div>
                 <div class="box">
                     <div class="prix">??€</div>
-                    <button class="achat">Indisponible...</button>
+                    <button class="achat" data-name="Arstrap IV" data-price="17€">Ajouter au panier</button>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>Copyrights<a href="#"> Hélios Store (By Anzuko)</a></p>
+        <p>Copyrights<a href="#"> Hélios Store</a></p>
     </footer>
+
+<div id="panier" class="panier">
+    <h2>Votre panier</h2>
+    <ul id="panier-items"></ul>
+    <p class="total">Total : <span id="total">0</span> €</p>
+    <button id="btn-commander" class="commander">Commander et Payer</button>
+</div>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
