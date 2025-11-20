@@ -136,3 +136,17 @@ footer p a{
     color: #000;
     font-weight: bold;
 }
+@media (max-width: 810px){
+    .navbar{
+        flex-direction: column;
+    } 
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu li{
+        width: 100%;
+    }
+}
