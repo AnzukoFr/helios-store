@@ -138,7 +138,7 @@ footer p a{
 }
 @media all and (max-width: 810px){
     .navbar{
-        flex-direction: column;
+        flex-direction: fixed;
     } 
     .logo{
         width: 100%;
