@@ -136,7 +136,7 @@ footer p a{
     color: #000;
     font-weight: bold;
 }
-@media (max-width: 810px){
+@media all and (max-width: 810px){
     .navbar{
         flex-direction: column;
     } 
